@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node build/index.js",
     "start-ts": "ts-node src/index.ts"
   },
   "repository": {
